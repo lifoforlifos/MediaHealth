@@ -26215,7 +26215,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -26248,9 +26247,9 @@ var render = function() {
                   },
                   [
                     _c("div", { staticClass: "footer-logo logo-text" }, [
-                      _vm._v("MEDIA "),
+                      _vm._v("Media"),
                       _c("strong", { attrs: { "data-new-link": "true" } }, [
-                        _vm._v("HEAD")
+                        _vm._v("Health")
                       ])
                     ])
                   ]
@@ -29140,7 +29139,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -29157,10 +29155,7 @@ var render = function() {
       "div",
       {
         staticClass: "hero-section",
-        staticStyle: {
-          "background-image":
-            'url("http://uploads.webflow.com/566ded60394cebc21a1286aa/568f13f260473ef56670aa2b_work-late")'
-        }
+        staticStyle: { "background-image": 'url("/images/mediahealth.jpg")' }
       },
       [
         _c(
@@ -29184,9 +29179,9 @@ var render = function() {
                   { staticClass: "w-nav-brand", attrs: { to: "/" } },
                   [
                     _c("div", { staticClass: "logo-text" }, [
-                      _vm._v("MEDIA "),
+                      _vm._v("Media"),
                       _c("strong", { attrs: { "data-new-link": "true" } }, [
-                        _vm._v("HEAD")
+                        _vm._v("Health")
                       ])
                     ])
                   ]
@@ -29254,91 +29249,50 @@ var render = function() {
           ]
         ),
         _vm._v(" "),
-        _c("h1", [_vm._v("Welcome to Media Head")]),
-        _vm._v(" "),
         _c("div", { staticClass: "hero-overlay" })
       ]
     ),
     _vm._v(" "),
-    _c("div", { staticClass: "home-page section top-section" }, [
-      _c("div", { staticClass: "hero-container w-container" }, [
-        _c("div", { staticClass: "w-clearfix" }, [
-          _c(
-            "div",
-            { staticClass: "_60block", attrs: { "data-ix": "tile-1" } },
-            [
-              _c(
-                "router-link",
-                {
-                  staticClass: "hero-tile w-inline-block",
-                  attrs: { to: "/about" }
-                },
-                [
-                  _c("div", { staticClass: "tile-text" }, [
-                    _vm._v("About"),
-                    _c("br"),
-                    _vm._v("The company.")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "tile-image" }, [
-                    _c("div", { staticClass: "tile-overlay" })
-                  ])
-                ]
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "_40block", attrs: { "data-ix": "tile-3" } },
-            [
-              _c("div", { staticClass: "hero-tile w-dyn-list" }, [
-                _c("div", { staticClass: "w-dyn-items" }, [
-                  _c(
-                    "div",
-                    { staticClass: "w-dyn-item" },
-                    [
-                      _c(
-                        "router-link",
-                        {
-                          staticClass: "tile-link w-inline-block",
-                          attrs: { to: "/portfolio" }
-                        },
-                        [
-                          _c("div", { staticClass: "tile-text" }, [
-                            _vm._v("Our"),
-                            _c("br"),
-                            _vm._v("Portfolio.")
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            {
-                              staticClass: "tile-image",
-                              staticStyle: {
-                                "background-image":
-                                  "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0d9760473ef56670a32d_coffee-mug.jpg')"
-                              }
-                            },
-                            [_c("div", { staticClass: "tile-overlay" })]
-                          )
-                        ]
-                      )
-                    ],
-                    1
-                  )
-                ])
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "_33block", attrs: { "data-ix": "tile-3" } },
-            [
-              _c("div", { staticClass: "hero-tile" }, [
-                _c("div", { staticClass: "w-dyn-list" }, [
+    _c(
+      "div",
+      {
+        staticClass: "home-page section",
+        staticStyle: { "margin-top": "50px" }
+      },
+      [
+        _c("div", { staticClass: "hero-container w-container" }, [
+          _c("div", { staticClass: "w-clearfix" }, [
+            _c(
+              "div",
+              { staticClass: "_60block", attrs: { "data-ix": "tile-1" } },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "hero-tile w-inline-block",
+                    attrs: { to: "/about" }
+                  },
+                  [
+                    _c("div", { staticClass: "tile-text" }, [
+                      _vm._v("About"),
+                      _c("br"),
+                      _vm._v("The company.")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "tile-image" }, [
+                      _c("div", { staticClass: "tile-overlay" })
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "_40block", attrs: { "data-ix": "tile-3" } },
+              [
+                _c("div", { staticClass: "hero-tile w-dyn-list" }, [
                   _c("div", { staticClass: "w-dyn-items" }, [
                     _c(
                       "div",
@@ -29348,13 +29302,13 @@ var render = function() {
                           "router-link",
                           {
                             staticClass: "tile-link w-inline-block",
-                            attrs: { to: "/blog" }
+                            attrs: { to: "/portfolio" }
                           },
                           [
                             _c("div", { staticClass: "tile-text" }, [
                               _vm._v("Our"),
                               _c("br"),
-                              _vm._v("Blog.")
+                              _vm._v("Portfolio.")
                             ]),
                             _vm._v(" "),
                             _c(
@@ -29363,7 +29317,7 @@ var render = function() {
                                 staticClass: "tile-image",
                                 staticStyle: {
                                   "background-image":
-                                    "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0db9b2df7bc62f55c8e6_take-a-pic.jpg')"
+                                    "url('/images/objectif.png')"
                                 }
                               },
                               [_c("div", { staticClass: "tile-overlay" })]
@@ -29375,40 +29329,86 @@ var render = function() {
                     )
                   ])
                 ])
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "_33block", attrs: { "data-ix": "tile-2" } },
-            [
-              _c(
-                "router-link",
-                {
-                  staticClass: "hero-tile w-inline-block",
-                  attrs: { "data-ix": "show-contact-overlay", to: "#" }
-                },
-                [
-                  _c("div", { staticClass: "tile-text" }, [
-                    _vm._v("Contact"),
-                    _c("br"),
-                    _vm._v("Us.")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "hire tile-image" }, [
-                    _c("div", { staticClass: "tile-overlay" })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "_33block", attrs: { "data-ix": "tile-3" } },
+              [
+                _c("div", { staticClass: "hero-tile" }, [
+                  _c("div", { staticClass: "w-dyn-list" }, [
+                    _c("div", { staticClass: "w-dyn-items" }, [
+                      _c(
+                        "div",
+                        { staticClass: "w-dyn-item" },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              staticClass: "tile-link w-inline-block",
+                              attrs: { to: "/blog" }
+                            },
+                            [
+                              _c("div", { staticClass: "tile-text" }, [
+                                _vm._v("Our"),
+                                _c("br"),
+                                _vm._v("Blog.")
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "tile-image",
+                                  staticStyle: {
+                                    "background-image":
+                                      "url('images/objectif.png')"
+                                  }
+                                },
+                                [_c("div", { staticClass: "tile-overlay" })]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    ])
                   ])
-                ]
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _vm._m(1)
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "_33block", attrs: { "data-ix": "tile-2" } },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "hero-tile w-inline-block",
+                    attrs: { "data-ix": "show-contact-overlay", to: "/contact" }
+                  },
+                  [
+                    _c("div", { staticClass: "tile-text" }, [
+                      _vm._v("Contact"),
+                      _c("br"),
+                      _vm._v("Us.")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "hire tile-image" }, [
+                      _c("div", { staticClass: "tile-overlay" })
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(1)
+          ])
         ])
-      ])
-    ])
+      ]
+    )
   ])
 }
 var staticRenderFns = [
@@ -29617,31 +29617,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -29658,10 +29633,7 @@ var render = function() {
       "div",
       {
         staticClass: "hero-section",
-        staticStyle: {
-          "background-image":
-            'url("http://uploads.webflow.com/566ded60394cebc21a1286aa/566ded60394cebc21a1286b3_laptop-desk.jpg")'
-        }
+        staticStyle: { "background-image": 'url("/images/mediahealth.jpg")' }
       },
       [
         _c(
@@ -29685,9 +29657,9 @@ var render = function() {
                   { staticClass: "w-nav-brand", attrs: { to: "/" } },
                   [
                     _c("div", { staticClass: "logo-text" }, [
-                      _vm._v("MEDIA "),
+                      _vm._v("Media"),
                       _c("strong", { attrs: { "data-new-link": "true" } }, [
-                        _vm._v("HEAD")
+                        _vm._v("Health")
                       ])
                     ])
                   ]
@@ -29755,8 +29727,6 @@ var render = function() {
           ]
         ),
         _vm._v(" "),
-        _c("h1", [_vm._v("Blog")]),
-        _vm._v(" "),
         _c("div", { staticClass: "hero-overlay" })
       ]
     ),
@@ -29803,36 +29773,23 @@ var staticRenderFns = [
                         staticClass: "blog-category",
                         staticStyle: { "background-color": "#8e54cc" }
                       },
-                      [_vm._v("Web Design")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", {
                       staticClass: "blog-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/566ded60394cebc21a1286c0_sketch-ideas.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-title" }, [
-                    _vm._v("5 tips to being the best designer")
+                    _vm._v("You are our priority")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-description" }, [
-                    _vm._v(
-                      "A collection of the best tips to help you become the best designer you can be."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("Written by")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("John Smith")
-                    ])
+                    _vm._v("We care about your health.")
                   ])
                 ]
               )
@@ -29860,36 +29817,23 @@ var staticRenderFns = [
                         staticClass: "blog-category",
                         staticStyle: { "background-color": "#4294d5" }
                       },
-                      [_vm._v("Startups")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", {
                       staticClass: "blog-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0db9b2df7bc62f55c8e6_take-a-pic.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-title" }, [
-                    _vm._v("How to be a better freelancer this year")
+                    _vm._v("You are our priority")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-description" }, [
-                    _vm._v(
-                      "Learn the tips and tricks needed to be the best you can be."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("Written by")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("John Smith")
-                    ])
+                    _vm._v("We care about your health.")
                   ])
                 ]
               )
@@ -29917,36 +29861,23 @@ var staticRenderFns = [
                         staticClass: "blog-category",
                         staticStyle: { "background-color": "#8e54cc" }
                       },
-                      [_vm._v("Web Design")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", {
                       staticClass: "blog-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/566ded60394cebc21a1286c0_sketch-ideas.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-title" }, [
-                    _vm._v("5 tips to being the best designer")
+                    _vm._v("You are our priority")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-description" }, [
-                    _vm._v(
-                      "A collection of the best tips to help you become the best designer you can be."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("Written by")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("John Smith")
-                    ])
+                    _vm._v("We care about your health.")
                   ])
                 ]
               )
@@ -29974,36 +29905,23 @@ var staticRenderFns = [
                         staticClass: "blog-category",
                         staticStyle: { "background-color": "#4294d5" }
                       },
-                      [_vm._v("Startups")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", {
                       staticClass: "blog-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0db9b2df7bc62f55c8e6_take-a-pic.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-title" }, [
-                    _vm._v("How to be a better freelancer this year")
+                    _vm._v("You are our priority")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-description" }, [
-                    _vm._v(
-                      "Learn the tips and tricks needed to be the best you can be."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("Written by")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("John Smith")
-                    ])
+                    _vm._v("We care about your health.")
                   ])
                 ]
               )
@@ -30031,36 +29949,23 @@ var staticRenderFns = [
                         staticClass: "blog-category",
                         staticStyle: { "background-color": "#8e54cc" }
                       },
-                      [_vm._v("Web Design")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", {
                       staticClass: "blog-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/566ded60394cebc21a1286c0_sketch-ideas.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-title" }, [
-                    _vm._v("5 tips to being the best designer")
+                    _vm._v("You are our priority")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-description" }, [
-                    _vm._v(
-                      "A collection of the best tips to help you become the best designer you can be."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("Written by")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("John Smith")
-                    ])
+                    _vm._v("We care about your health.")
                   ])
                 ]
               )
@@ -30088,36 +29993,23 @@ var staticRenderFns = [
                         staticClass: "blog-category",
                         staticStyle: { "background-color": "#4294d5" }
                       },
-                      [_vm._v("Startups")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", {
                       staticClass: "blog-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0db9b2df7bc62f55c8e6_take-a-pic.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-title" }, [
-                    _vm._v("How to be a better freelancer this year")
+                    _vm._v("You are our priority")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "blog-description" }, [
-                    _vm._v(
-                      "Learn the tips and tricks needed to be the best you can be."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("Written by")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "blog-author" }, [
-                      _vm._v("John Smith")
-                    ])
+                    _vm._v("We care about your health.")
                   ])
                 ]
               )
@@ -30235,7 +30127,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -30252,10 +30143,7 @@ var render = function() {
       "div",
       {
         staticClass: "hero-section",
-        staticStyle: {
-          "background-image":
-            'url("http://uploads.webflow.com/566ded60394cebc21a1286aa/566ded60394cebc21a1286b2_hero-photo.jpg")'
-        }
+        staticStyle: { "background-image": 'url("/images/mediahealth.jpg")' }
       },
       [
         _c(
@@ -30279,9 +30167,9 @@ var render = function() {
                   { staticClass: "w-nav-brand", attrs: { to: "/" } },
                   [
                     _c("div", { staticClass: "logo-text" }, [
-                      _vm._v("MEDIA "),
+                      _vm._v("Media"),
                       _c("strong", { attrs: { "data-new-link": "true" } }, [
-                        _vm._v("HEAD")
+                        _vm._v("Health")
                       ])
                     ])
                   ]
@@ -30349,8 +30237,6 @@ var render = function() {
           ]
         ),
         _vm._v(" "),
-        _c("h1", [_vm._v("About")]),
-        _vm._v(" "),
         _c("div", { staticClass: "hero-overlay" })
       ]
     ),
@@ -30374,7 +30260,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "section" }, [
       _c("div", { staticClass: "w-container" }, [
         _c("div", { staticClass: "w-richtext" }, [
-          _c("h2", [_vm._v("I love what I do")]),
+          _c("h2", [_vm._v("Media Health")]),
           _vm._v(" "),
           _c(
             "figure",
@@ -30391,11 +30277,8 @@ var staticRenderFns = [
             [
               _c("div", [
                 _c("img", {
-                  attrs: {
-                    src:
-                      "https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286aa/568e93be1c76e37a0f245b53_skateboard.jpg",
-                    alt: ""
-                  }
+                  staticStyle: { height: "300px" },
+                  attrs: { src: "/images/mediahealth.jpg" }
                 })
               ])
             ]
@@ -30405,9 +30288,7 @@ var staticRenderFns = [
             _vm._v(
               "Bacon ipsum dolor amet ground round tongue andouille shoulder, venison sausage biltong short loin leberkas tenderloin picanha boudin cupim bacon. Short loin salami boudin andouille beef ribs shank ham hock ball tip beef pastrami. "
             ),
-            _c("a", { attrs: { href: "http://www.webflow.com" } }, [
-              _vm._v("Turducken pig salami")
-            ]),
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Turducken pig salami")]),
             _vm._v(
               " tenderloin. Doner bacon spare ribs picanha pastrami meatloaf ground round bresaola flank landjaeger."
             )
@@ -30418,19 +30299,13 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("blockquote", [
-            _vm._v(
-              '"I love doing this stuff! The more and more I work with Webflow, the more I fall in love with web design."'
-            )
-          ]),
+          _c("blockquote", [_vm._v('"We care about your health."')]),
           _vm._v(" "),
           _c("p", [
             _vm._v(
               "Pancetta ribeye salami shoulder, bresaola short ribs cow sausage pork loin tongue. Pork t-bone chicken shankle ball tip, tri-tip beef. Cow shank strip steak, spare ribs pork loin filet mignon sirloin cupim tenderloin rump ball tip kevin "
             ),
-            _c("a", { attrs: { href: "http://www.webflow.com" } }, [
-              _vm._v("pig porchetta")
-            ]),
+            _c("a", { attrs: { href: "#" } }, [_vm._v("pig porchetta")]),
             _vm._v(
               ". Picanha chicken porchetta, ham hock flank ham ground round fatback pancetta shankle. Venison biltong pork belly turducken."
             )
@@ -30592,7 +30467,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -30609,10 +30483,7 @@ var render = function() {
       "div",
       {
         staticClass: "hero-section",
-        staticStyle: {
-          "background-image":
-            'url("http://uploads.webflow.com/566ded60394cebc21a1286aa/568ec556e01d4cb657aa7326_design-desk.jpg")'
-        }
+        staticStyle: { "background-image": 'url("/images/objectif.png")' }
       },
       [
         _c(
@@ -30636,9 +30507,9 @@ var render = function() {
                   { staticClass: "w-nav-brand", attrs: { to: "/" } },
                   [
                     _c("div", { staticClass: "logo-text" }, [
-                      _vm._v("MEDIA "),
+                      _vm._v("Media"),
                       _c("strong", { attrs: { "data-new-link": "true" } }, [
-                        _vm._v("HEAD")
+                        _vm._v("Health")
                       ])
                     ])
                   ]
@@ -30706,8 +30577,6 @@ var render = function() {
           ]
         ),
         _vm._v(" "),
-        _c("h1", [_vm._v("Portfolio")]),
-        _vm._v(" "),
         _c("div", { staticClass: "hero-overlay" })
       ]
     ),
@@ -30746,8 +30615,7 @@ var staticRenderFns = [
                     _c("div", {
                       staticClass: "project-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0d9760473ef56670a32d_coffee-mug.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     }),
                     _vm._v(" "),
@@ -30757,11 +30625,11 @@ var staticRenderFns = [
                         staticClass: "project-tag",
                         staticStyle: { "background-color": "#b058da" }
                       },
-                      [_vm._v("Web Design")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", { staticClass: "project-title" }, [
-                      _vm._v("Awesome Company Logo Design")
+                      _vm._v("Awesome")
                     ])
                   ]
                 )
@@ -30782,8 +30650,7 @@ var staticRenderFns = [
                     _c("div", {
                       staticClass: "project-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/566ded60394cebc21a1286c1_sketches.jpg')"
+                        "background-image": "url('/images/objectif.png')"
                       }
                     }),
                     _vm._v(" "),
@@ -30793,11 +30660,11 @@ var staticRenderFns = [
                         staticClass: "project-tag",
                         staticStyle: { "background-color": "#2fcc94" }
                       },
-                      [_vm._v("Branding")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", { staticClass: "project-title" }, [
-                      _vm._v("Sketch Designs")
+                      _vm._v("Sketch")
                     ])
                   ]
                 )
@@ -30818,8 +30685,7 @@ var staticRenderFns = [
                     _c("div", {
                       staticClass: "project-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0d9760473ef56670a32d_coffee-mug.jpg')"
+                        "background-image": "url('/images/contact.jpg')"
                       }
                     }),
                     _vm._v(" "),
@@ -30829,11 +30695,11 @@ var staticRenderFns = [
                         staticClass: "project-tag",
                         staticStyle: { "background-color": "#b058da" }
                       },
-                      [_vm._v("Web Design")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", { staticClass: "project-title" }, [
-                      _vm._v("Awesome Company Logo Design")
+                      _vm._v("Awesome")
                     ])
                   ]
                 )
@@ -30854,8 +30720,7 @@ var staticRenderFns = [
                     _c("div", {
                       staticClass: "project-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/566ded60394cebc21a1286c1_sketches.jpg')"
+                        "background-image": "url('/images/mediahealth.jpg')"
                       }
                     }),
                     _vm._v(" "),
@@ -30865,11 +30730,11 @@ var staticRenderFns = [
                         staticClass: "project-tag",
                         staticStyle: { "background-color": "#2fcc94" }
                       },
-                      [_vm._v("Branding")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", { staticClass: "project-title" }, [
-                      _vm._v("Sketch Designs")
+                      _vm._v("Sketch")
                     ])
                   ]
                 )
@@ -30890,8 +30755,7 @@ var staticRenderFns = [
                     _c("div", {
                       staticClass: "project-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0d9760473ef56670a32d_coffee-mug.jpg')"
+                        "background-image": "url('/images/objectif.png')"
                       }
                     }),
                     _vm._v(" "),
@@ -30901,11 +30765,11 @@ var staticRenderFns = [
                         staticClass: "project-tag",
                         staticStyle: { "background-color": "#b058da" }
                       },
-                      [_vm._v("Web Design")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", { staticClass: "project-title" }, [
-                      _vm._v("Awesome Company Logo Design")
+                      _vm._v("Awesome")
                     ])
                   ]
                 )
@@ -30926,8 +30790,7 @@ var staticRenderFns = [
                     _c("div", {
                       staticClass: "project-image",
                       staticStyle: {
-                        "background-image":
-                          "url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/566ded60394cebc21a1286c1_sketches.jpg')"
+                        "background-image": "url('/images/contact.jpg')"
                       }
                     }),
                     _vm._v(" "),
@@ -30937,11 +30800,11 @@ var staticRenderFns = [
                         staticClass: "project-tag",
                         staticStyle: { "background-color": "#2fcc94" }
                       },
-                      [_vm._v("Branding")]
+                      [_vm._v("Health")]
                     ),
                     _vm._v(" "),
                     _c("div", { staticClass: "project-title" }, [
-                      _vm._v("Sketch Designs")
+                      _vm._v("Sketch")
                     ])
                   ]
                 )
@@ -31068,7 +30931,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -31085,10 +30947,7 @@ var render = function() {
       "div",
       {
         staticClass: "hero-section",
-        staticStyle: {
-          "background-image":
-            'url("http://uploads.webflow.com/566ded60394cebc21a1286aa/566ded60394cebc21a1286b3_laptop-desk.jpg")'
-        }
+        staticStyle: { "background-image": 'url("/images/contact.jpg")' }
       },
       [
         _c(
@@ -31112,9 +30971,9 @@ var render = function() {
                   { staticClass: "w-nav-brand", attrs: { to: "/" } },
                   [
                     _c("div", { staticClass: "logo-text" }, [
-                      _vm._v("MEDIA "),
+                      _vm._v("Media"),
                       _c("strong", { attrs: { "data-new-link": "true" } }, [
-                        _vm._v("HEAD")
+                        _vm._v("Health")
                       ])
                     ])
                   ]
@@ -31181,8 +31040,6 @@ var render = function() {
             )
           ]
         ),
-        _vm._v(" "),
-        _c("h1", [_vm._v("Contact")]),
         _vm._v(" "),
         _c("div", { staticClass: "hero-overlay" })
       ]
@@ -31263,6 +31120,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("textarea", {
                   staticClass: "text-area text-field w-input",
+                  staticStyle: { color: "black" },
                   attrs: {
                     "data-name": "Project details",
                     id: "Project-details",

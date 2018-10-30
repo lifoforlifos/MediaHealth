@@ -1,10 +1,10 @@
 <template>
     <div class="">
-        <div class="hero-section" style='background-image: url("http://uploads.webflow.com/566ded60394cebc21a1286aa/568f13f260473ef56670aa2b_work-late");'>
+        <div class="hero-section" style='background-image: url("/images/mediahealth.jpg");'>
             <div class="nav w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
                 <div class="w-container">
                     <router-link class="w-nav-brand" to="/">
-                        <div class="logo-text">MEDIA <strong data-new-link="true">HEAD</strong></div>
+                        <div class="logo-text">Media<strong data-new-link="true">Health</strong></div>
                     </router-link>
                     <nav class="nav-menu w-nav-menu w-preserve-3d" role="navigation">
                         <router-link class="nav-link w-nav-link" to="/">Home</router-link>
@@ -20,11 +20,10 @@
                 </div>
             </div>
 
-            <h1>Welcome to Media Head</h1>
             <div class="hero-overlay"></div>
         </div>
 
-        <div class="home-page section top-section">
+        <div class="home-page section" style="margin-top: 50px;">
             <div class="hero-container w-container">
                 <div class="w-clearfix">
                     <div class="_60block" data-ix="tile-1">
@@ -42,7 +41,7 @@
                                 <div class="w-dyn-item">
                                     <router-link class="tile-link w-inline-block" to="/portfolio">
                                         <div class="tile-text">Our<br>Portfolio.</div>
-                                        <div class="tile-image" style="background-image: url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0d9760473ef56670a32d_coffee-mug.jpg');">
+                                        <div class="tile-image" style="background-image: url('/images/objectif.png');">
                                             <div class="tile-overlay"></div>
                                         </div>
                                     </router-link>
@@ -58,7 +57,7 @@
                                     <div class="w-dyn-item">
                                         <router-link class="tile-link w-inline-block" to="/blog">
                                             <div class="tile-text">Our<br>Blog.</div>
-                                            <div class="tile-image" style="background-image: url('https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286b1/568f0db9b2df7bc62f55c8e6_take-a-pic.jpg');">
+                                            <div class="tile-image" style="background-image: url('images/objectif.png');">
                                                 <div class="tile-overlay"></div>
                                             </div>
                                         </router-link>
@@ -69,7 +68,7 @@
                     </div>
 
                     <div class="_33block" data-ix="tile-2">
-                        <router-link class="hero-tile w-inline-block" data-ix="show-contact-overlay" to="#">
+                        <router-link class="hero-tile w-inline-block" data-ix="show-contact-overlay" to="/contact">
                             <div class="tile-text">Contact<br>Us.</div>
                             <div class="hire tile-image">
                                 <div class="tile-overlay"></div>

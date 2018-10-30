@@ -10,7 +10,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Media Head</title>
+        <title>Media Health</title>
 
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
@@ -32,7 +32,8 @@
         <script type="text/javascript" src="{{ mix('js/guest.js') }}"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-        <!--<script src="{{ asset('js/my.js') }}" charset="utf-8"></script>-->
+        <script src="{{ asset('js/my.js') }}" charset="utf-8"></script>
+        <!-- <script src="https://daks2k3a4ib2z.cloudfront.net/566ded60394cebc21a1286aa/js/webflow.7749a0b81.js" charset="utf-8"></script> -->
         <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
     </body>
 </html>

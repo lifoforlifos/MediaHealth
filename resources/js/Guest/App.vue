@@ -7,8 +7,7 @@
                 <div class="w-row">
                     <div class="w-col w-col-3">
                         <router-link class="logo-footer w-nav-brand" to="/">
-                            <div class="footer-logo logo-text">MEDIA <strong data-new-link="true">HEAD</strong>
-                            </div>
+                            <div class="footer-logo logo-text">Media<strong data-new-link="true">Health</strong></div>
                         </router-link>
                     </div>
 

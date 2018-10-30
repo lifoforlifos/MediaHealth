@@ -1,10 +1,10 @@
 <template>
     <div class="">
-        <div class="hero-section" style='background-image: url("http://uploads.webflow.com/566ded60394cebc21a1286aa/566ded60394cebc21a1286b3_laptop-desk.jpg");'>
+        <div class="hero-section" style='background-image: url("/images/contact.jpg");'>
             <div class="nav w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
                 <div class="w-container">
                     <router-link class="w-nav-brand" to="/">
-                        <div class="logo-text">MEDIA <strong data-new-link="true">HEAD</strong></div>
+                        <div class="logo-text">Media<strong data-new-link="true">Health</strong></div>
                     </router-link>
                     <nav class="nav-menu w-nav-menu w-preserve-3d" role="navigation">
                         <router-link class="nav-link w-nav-link" to="/">Home</router-link>
@@ -20,7 +20,6 @@
                 </div>
             </div>
 
-            <h1>Contact</h1>
             <div class="hero-overlay"></div>
         </div>
 
@@ -34,7 +33,7 @@
                         <form data-name="Email Form" id="email-form" name="email-form">
                             <input class="text-field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Enter your name" type="text">
                             <input class="text-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
-                            <textarea class="text-area text-field w-input" data-name="Project details" id="Project-details" maxlength="5000" name="Project-details" placeholder="What are your project details..."></textarea>
+                            <textarea class="text-area text-field w-input" data-name="Project details" id="Project-details" maxlength="5000" name="Project-details" placeholder="What are your project details..." style="color: black;"></textarea>
                             <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Send">
                         </form>
 
