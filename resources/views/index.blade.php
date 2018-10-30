@@ -9,7 +9,7 @@
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        
+
         <title>Media Head</title>
 
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
@@ -29,7 +29,7 @@
     <body>
         <div id="app"></div>
 
-        <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
+        <script type="text/javascript" src="{{ mix('js/guest.js') }}"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
         <!--<script src="{{ asset('js/my.js') }}" charset="utf-8"></script>-->
